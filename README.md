@@ -121,7 +121,7 @@
 ##### 3.3.3 消息诊断
 ##### 3.3.4 RPC 诊断
 ###### 系统稳定性 - 使用 Dubbo 的 N 个注意事项
-###### [系统稳定系——Dubbo 常见错误及解决方法](docs/diagnosis/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
+###### [系统稳定系——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
 
 #### 3.4 在线诊断 
 ##### Arthas

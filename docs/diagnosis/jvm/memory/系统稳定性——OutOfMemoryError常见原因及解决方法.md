@@ -8,7 +8,7 @@
 
 当 JVM 内存严重不足时，就会抛出 java.lang.OutOfMemoryError 错误。本文总结了常见的 OOM 原因及其解决方法，如下图所示。如有遗漏或错误，欢迎补充指正。
 
-![image](https://yqfile.alicdn.com/63e5e3fd2066d931fe0159741a489c3b27bc3526.png)
+![image](Java内存模型&OOM错误.png)
 
 如果对 JVM 内存模型和垃圾回收机制不熟悉，推荐阅读 [《咱们从头到尾说一次 Java 垃圾回收》](https://www.atatech.org/articles/143826)。
 
