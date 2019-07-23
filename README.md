@@ -102,7 +102,7 @@
 
 #### 3.2 JVM 诊断 
 ##### 3.2.1 JVM 内存诊断
-###### [系统稳定系——OutOfMemoryError 常见原因及解决方法](http://gitlab.alibaba-inc.com/eagleeye/StabilityGuide/wikis/OutOfMemoryError) 
+###### [系统稳定系——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md) 
 ###### StackOverFlowError
 
 ##### 3.2.2 线程诊断
@@ -110,7 +110,7 @@
 ###### 死锁
 
 ##### 3.2.3 GC 诊断
-###### 《咱们从头到尾说一次Java垃圾回收》
+###### 咱们从头到尾说一次Java垃圾回收
 
 
 
@@ -120,8 +120,8 @@
 ##### 3.3.2 缓存诊断
 ##### 3.3.3 消息诊断
 ##### 3.3.4 RPC 诊断
-###### [系统稳定性 - 使用 Dubbo 的 N 个注意事项]()
-###### [系统稳定系——Dubbo 常见错误及解决方法](http://gitlab.alibaba-inc.com/eagleeye/StabilityGuide/wikis/rpc-dubbo-runtimeError)
+###### 系统稳定性 - 使用 Dubbo 的 N 个注意事项
+###### [系统稳定系——Dubbo 常见错误及解决方法](docs/diagnosis/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
 
 #### 3.4 在线诊断 
 ##### Arthas
