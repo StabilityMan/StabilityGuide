@@ -8,9 +8,9 @@
 
 当 JVM 内存严重不足时，就会抛出 java.lang.OutOfMemoryError 错误。本文总结了常见的 OOM 原因及其解决方法，如下图所示。如有遗漏或错误，欢迎补充指正。
 
-![image](http://git.cn-hangzhou.oss-cdn.aliyun-inc.com/uploads/eagleeye/StabilityGuide/5968917f1c92297d359114206eeb2b9c/image.png)
+![image](https://yqfile.alicdn.com/63e5e3fd2066d931fe0159741a489c3b27bc3526.png)
 
-**提示：**如果对 JVM 内存模型和垃圾回收机制不熟悉，推荐阅读 [《咱们从头到尾说一次 Java 垃圾回收》](https://www.atatech.org/articles/143826)。
+如果对 JVM 内存模型和垃圾回收机制不熟悉，推荐阅读 [《咱们从头到尾说一次 Java 垃圾回收》](https://www.atatech.org/articles/143826)。
 
 ## 目录
 
@@ -30,7 +30,7 @@
 
 
 ## 1. Java heap space
-当堆内存（Heap Space）没有足够空间存放新创建的对象时，就会抛出 `java.lang.OutOfMemoryError: Java heap space` 错误。（**提示：**根据实际生产经验，可以对程序日志中的 OutOfMemoryError 配置关键字告警，一经发现，立即处理）。
+当堆内存（Heap Space）没有足够空间存放新创建的对象时，就会抛出 `java.lang.OutOfMemoryError: Java heap space` 错误（根据实际生产经验，可以对程序日志中的 OutOfMemoryError 配置关键字告警，一经发现，立即处理）。
 
 ### 原因分析
 `Java heap space` 错误产生的常见原因可以分为以下几类：
