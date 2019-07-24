@@ -192,13 +192,13 @@ Direct ByteBuffer 的默认大小为 64 MB，一旦使用超出限制，就会�
 
 
 ## 参考文章
-* [Plumbr OutOfMemoryError](https://plumbr.io/outofmemoryerror)
+* [Plumbr OutOfMemoryError（推荐，含代码示例）](https://plumbr.io/outofmemoryerror)
 * [GCeasy OutOfMemoryError](https://tier1app.files.wordpress.com/2014/12/outofmemoryerror2.pdf)
-
+* [JVM 内存结构](https://www.cnblogs.com/ityouknow/p/5610232.html)
 
 
 ## 加入我们
 【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点，让世界的确定性多一点**。
 
-* [【稳定大于一切】GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
-* 【稳定大于一切】云栖社区
+* [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
+* 钉钉群号：23179349
