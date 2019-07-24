@@ -1,3 +1,4 @@
+# 系统稳定性专栏提纲
 
 > 稳定性之于系统，就像健康之于人类，看起来重要不紧急，然而一旦失去，就追悔莫及。
 
@@ -9,8 +10,8 @@
 
 
 ## 加入我们
-* [GitHub 项目地址](https://github.com/StabilityMan/StabilityGuide)
-* 钉钉交流群号：23179349
+* [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
+* 钉钉群号：23179349
 
 
 ## 框架目录
@@ -38,7 +39,7 @@
 ##### 3.1.4 磁盘诊断
 
 
-#### 3.2 JVM 诊断（@芳玺 暂定下下周四）
+#### 3.2 JVM 诊断
 ##### 3.2.1 JVM 内存诊断
 ###### [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
 ###### StackOverFlowError
@@ -78,6 +79,7 @@
 	* 服务响应慢诊断，@绍宽
 	* 线程池满诊断，@凌超
 	* Nginx 链路追踪，@竹影
+	* JVM 诊断，@芳玺
 
 
 ## 专栏建设
@@ -113,3 +115,10 @@
 	* 前后效果对比。
 	* 简要的问题复盘总结，文档收尾。
 * 推荐阅读/产品链接/公众号/交流群等。
+
+## 协议声明 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+
+本项目遵循 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可协议，可以自由分享或修改，仅需给出署名即可，希望能够对你有所帮助。
+
+
