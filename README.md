@@ -1,4 +1,8 @@
-# 系统稳定性专栏提纲
+
+[![license](https://badgen.net/badge/license/CC-BY-4.0/green)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
+[![github](https://badgen.net/badge/github/StabilityGuide/orange)](https://github.com/StabilityMan/StabilityGuide)
+[![chat](https://badgen.net/badge/chat/dingding/blue)](https://github.com/StabilityMan/StabilityGuide/blob/master/DingGroup.JPG)
+
 
 > 稳定性之于系统，就像健康之于人类，看起来重要不紧急，然而一旦失去，就追悔莫及。
 
@@ -115,10 +119,3 @@
 	* 前后效果对比。
 	* 简要的问题复盘总结，文档收尾。
 * 推荐阅读/产品链接/公众号/交流群等。
-
-## 协议声明 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-
-本项目遵循 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可协议，可以自由分享或修改，仅需给出署名即可，希望能够对你有所帮助。
-
-
