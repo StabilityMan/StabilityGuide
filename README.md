@@ -46,7 +46,7 @@
 #### 3.2 JVM 诊断
 ##### 3.2.1 JVM 内存诊断
 ###### [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
-###### StackOverFlowError
+###### [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——StackOverFlowError常见原因及解决方法.md)
 
 ##### 3.2.2 线程诊断
 ###### 线程池满
@@ -76,6 +76,7 @@
 ## 版本迭代
 * 2019-07-26
 	* [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
+	* [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
 	* [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
 * 2019-08-09
 	* 限流降级，@宿何
