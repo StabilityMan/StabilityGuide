@@ -4,7 +4,7 @@
 > 创作日期：2019-08-06  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
 
-当应用程序试图调用类（静态或实例）的指定方法，而该类已不再具有该方法的定义时，就会抛出 `java.lang.NoSuchMethodError` 错误。简单地说，就是同一个类有多个版本，并且在运行时调用了缺少方法的版本。
+当应用程序试图调用类（静态或实例）的指定方法，而该类已不再具有该方法的定义时，就会抛出 `java.lang.NoSuchMethodError` 错误。简单地说，就是同一个 Class 有多个版本的实现，并且在运行时调用了缺少方法的那个版本。
 
 
 ## 目录
@@ -41,7 +41,7 @@
 ## 哪个版本的 Class 最终会被执行？
 影响 Class 最终是否被执行的关键因素有两个：Maven 依赖仲裁机制和 JVM 类加载机制，如下图所示：
 
-![image](NoSuchMethodError影响Class执行的两个因素.png)
+![image](image/NoSuchMethodError影响Class执行的两个因素.png)
 
 
 **首先，[Maven 依赖仲裁机制](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html) 决定了打包的优先级，** 仲裁优先级“从高到低”如下所述：
