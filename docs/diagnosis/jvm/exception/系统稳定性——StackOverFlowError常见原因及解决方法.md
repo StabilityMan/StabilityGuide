@@ -41,7 +41,7 @@ public class SimpleExample {
 
 当 `main()` 方法被调用后，执行线程按照代码执行顺序，将它正在执行的方法、基本数据类型、对象指针和返回值包装在栈帧中，逐一压入其私有的调用栈，整体执行过程如下图所示：
 
-![image](StackOverFlowError栈帧入栈过程.png)
+![image](image/StackOverFlowError栈帧入栈过程.png)
 
 1. 首先，程序启动后，`main()` 方法入栈。
 2. 然后，`a()` 方法入栈，变量 `x` 被声明为 `int` 类型，初始化赋值为 `0`。注意，无论是 `x` 还是 `0` 都被包含在栈帧中。
@@ -83,7 +83,7 @@ Exception in thread "main" java.lang.StackOverflowError
 	at StackOverflowErrorExample.a(StackOverflowErrorExample.java:10)
 ```
 
-![image](StackOverFlowError无限递归栈溢出.png)
+![image](image/StackOverFlowError无限递归栈溢出.png)
 
 ## 如何解决 StackOverFlowError？
 引发 `StackOverFlowError` 的常见原因有以下几种：
@@ -123,7 +123,7 @@ Exception in thread "main" java.lang.StackOverflowError
 
 
 ## 推荐工具&产品
-* [ARMS —— 阿里云 APM 产品，支持 StackOverFlowError 异常关键字告警](https://help.aliyun.com/document_detail/42966.html?spm=a2c4g.11174283.6.685.d69b668cuztvff)
+* [ARMS —— 阿里云 APM 产品，支持 StackOverFlowError 异常关键字告警](https://help.aliyun.com/document_detail/42966.html)
 
 
 ## 参考文章
@@ -134,7 +134,7 @@ Exception in thread "main" java.lang.StackOverflowError
 
 
 ## 加入我们
-【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点，让世界的确定性多一点**。
+【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点点，让世界的确定性多一点点**。
 
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号：23179349

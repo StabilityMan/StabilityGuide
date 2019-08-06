@@ -8,7 +8,7 @@
 
 当 JVM 内存严重不足时，就会抛出 java.lang.OutOfMemoryError 错误。本文总结了常见的 OOM 原因及其解决方法，如下图所示。如有遗漏或错误，欢迎补充指正。
 
-![image](Java内存模型&OOM错误.png)
+![image](image/Java内存模型&OOM错误.png)
 
 如果对 JVM 内存模型和垃圾回收机制不熟悉，推荐阅读 [《咱们从头到尾说一次 Java 垃圾回收》](https://www.atatech.org/articles/143826)。
 
@@ -185,7 +185,7 @@ Direct ByteBuffer 的默认大小为 64 MB，一旦使用超出限制，就会�
 
 ## 推荐工具&产品
 * [Eclipse Memory Analyzer —— JVM 内存分析工具](https://www.eclipse.org/mat/)
-* [ARMS —— 阿里云 APM 产品，支持 OOM 异常关键字告警](https://help.aliyun.com/document_detail/42966.html?spm=a2c4g.11174283.6.685.d69b668cuztvff)
+* [ARMS —— 阿里云 APM 产品，支持 OOM 异常关键字告警](https://help.aliyun.com/document_detail/42966.html)
 * [Arthas —— Java 在线诊断工具](https://github.com/alibaba/arthas)
 
 
@@ -198,7 +198,7 @@ Direct ByteBuffer 的默认大小为 64 MB，一旦使用超出限制，就会�
 
 
 ## 加入我们
-【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点，让世界的确定性多一点**。
+【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点点，让世界的确定性多一点点**。
 
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号：23179349

@@ -9,7 +9,7 @@
 > 稳定性是一切 0 前面的 1。
 
 ## 为什么要做这个专栏？
-* **让无法解决的问题少一点，让世界的确定性多一点。**
+* **让无法解决的问题少一点点，让世界的确定性多一点点。**
 * 打造国内稳定性领域知识库，降低知识获取门槛。
 
 
@@ -44,15 +44,18 @@
 
 
 #### 3.2 JVM 诊断
-##### 3.2.1 JVM 内存诊断
-###### [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
-###### [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——StackOverFlowError常见原因及解决方法.md)
+##### 3.2.1 异常诊断
+###### [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
+###### [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)
+###### [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)
 
-##### 3.2.2 线程诊断
+##### 3.2.2 内存诊断
+
+##### 3.2.3 线程诊断
 ###### 线程池满
 ###### 死锁
 
-##### 3.2.3 GC 诊断
+##### 3.2.4 GC 诊断
 ###### 咱们从头到尾说一次Java垃圾回收
 
 
@@ -75,10 +78,11 @@
 
 ## 版本迭代
 * 2019-07-26
-	* [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
-	* [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/memory/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
+	* [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
+	* [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
 	* [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
 * 2019-08-09
+	* [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
 	* 限流降级，@宿何
 	* 数据库诊断，@承嗣
 	* 服务响应慢诊断，@绍宽
