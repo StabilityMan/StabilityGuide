@@ -4,7 +4,7 @@
 > 创作日期：2019-08-06  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
 
-当应用程序试图调用类（静态或实例）的指定方法，而该类已不再具有该方法的定义时，就会抛出 `java.lang.NoSuchMethodError` 错误。简单地说，就是同一个 Class 有多个版本的实现，并且在运行时调用了缺少方法的那个版本。
+当应用程序试图调用类（静态或实例）的指定方法，而该类已不再具有该方法的定义时，就会抛出 `java.lang.NoSuchMethodError` 错误。简单地说，就是同一个 Class 有多个版本的实现，并且在运行时调用了缺少方法的那个版本。本文总结了 NoSuchMethodError 常见原因及其解决方法，如有遗漏或错误，欢迎补充指正。
 
 
 ## 目录
