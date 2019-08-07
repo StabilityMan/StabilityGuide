@@ -56,7 +56,7 @@
 ###### 死锁
 
 ##### 3.2.4 GC 诊断
-###### 咱们从头到尾说一次Java垃圾回收
+###### [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)
 
 
 #### 3.3 组件诊断
@@ -83,6 +83,7 @@
 	* [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
 * 2019-08-09
 	* [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
+	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
 	* 限流降级，@宿何
 	* 数据库诊断，@承嗣
 	* 服务响应慢诊断，@绍宽
