@@ -103,3 +103,4 @@
 
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号：23179349
+* 如果专题内容对你有所帮助，希望帮忙分享给身边的同学/同事，收集更广泛的素材，谢谢！
