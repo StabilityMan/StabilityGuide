@@ -26,6 +26,9 @@
 #### 1.4 故障演练
 #### 1.5 风险预案 
 #### 1.6 限流降级
+
+##### [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md)
+
 #### 1.7 业务隔离 
 
 ### 2. 事中“止血”
@@ -84,7 +87,7 @@
 * 2019-08-09
 	* [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
 	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
-	* 限流降级，@宿何
+	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何
 	* 数据库诊断，@承嗣
 	* 服务响应慢诊断，@绍宽
 	* 线程池满诊断，@凌超
