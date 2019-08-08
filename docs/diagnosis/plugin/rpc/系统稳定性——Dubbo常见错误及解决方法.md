@@ -1,6 +1,6 @@
 # 系统稳定性——Dubbo 常见错误及解决方法
 
-> 作者：空冥  
+> 作者：吕仁琦（空冥）  
 > 创作日期：2019-07-18  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
 
