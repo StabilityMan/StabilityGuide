@@ -68,6 +68,7 @@
 ##### 3.3.3 消息诊断
 ##### 3.3.4 RPC 诊断
 ###### [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
+##### 3.3.5 流计算诊断
 
 #### 3.4 在线诊断 
 ##### Arthas
@@ -98,6 +99,9 @@
     * SchedulerX 常见问题及解决方法，@学仁
     * SpringCloud 常见问题及解决方法，@洛夜
     * RocketMQ 常见问题及解决方法，@丁磊
+    * 流计算诊断，@云邪
+    * 慢 SQL 常见原因及解决方法，@长源
+    * 缓存诊断，@辰仪
 
 
 ## 专栏建设
@@ -133,3 +137,7 @@
 	* 前后效果对比。
 	* 简要的问题复盘总结，文档收尾。
 * 推荐阅读/产品链接/公众号/交流群等。
+
+## 友情链接
+* [Chaosblade——故障演练开源项目](https://github.com/chaosblade-io/chaosblade)
+* [Arthas——Java 在线诊断开源项目](https://github.com/alibaba/arthas)
