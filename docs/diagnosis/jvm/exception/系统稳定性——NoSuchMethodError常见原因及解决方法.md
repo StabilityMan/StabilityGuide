@@ -78,7 +78,13 @@
 
 	![image](image/Arthas反编译类示例.png)
 
-3. 根据 ClassLoader 和 Jar 包全路径名等信息，判断是类加载、Maven 仲裁或其他原因，并对应的加以解决。例如加载了同一个 Jar 包的低版本实现，则在 Maven dependencyManagement 中指定版本，或者移除间接依赖中的低版本（**提示:** 执行 `mvn dependency:tree` 命令，可以输出 Maven 依赖拓扑关系）。
+	如果应用程序启动失败，或者无法进行在线诊断，可以考虑添加 JVM 启动参数 `-verbose:class` 或 `-XX:+TraceClassLoading`，在日志中将输出每个类的加载信息，比如来自哪个 Jar 包。
+
+3. 根据 ClassLoader 和 Jar 包全路径名等信息，判断是类加载、Maven 仲裁或其他原因，并对应的加以解决。
+
+	如果是同一个 Jar 包的多版本问题，可以在 Maven `<dependencyManagement>` 标签中指定实际需要的版本，或者移除间接依赖中的低版本（**提示:** 执行 `mvn dependency:tree` 命令，可以查看 Maven 依赖拓扑关系）。
+	
+	如果是同一个 Class 出现在不同的 Jar 包问题，若可以排除，就用 `<excludes>` 排除该依赖；如不能排除，则考虑升级或替换为其他 Jar 包，或者考虑使用 ClassLoader 隔离技术，可参考 [《如果jar包冲突不可避免，如何实现jar包隔离？》](http://www.shop988.com/blog/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0jar%E5%8C%85%E9%9A%94%E7%A6%BB.html)。
 
 ## 其他 Jar 包冲突问题
 本文介绍的 Jar 包冲突解决方法，除了解决 `java.lang.NoSuchMethodError` 以外，对其他相似问题也具备一定的参考价值。
