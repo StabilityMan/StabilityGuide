@@ -40,7 +40,8 @@
 
 ### 3. 事后诊断
 #### 3.1 系统诊断
-##### 3.1.1 CPU 利用率高
+##### 3.1.1 CPU
+###### [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/系统稳定性——SoHot？快给CPU降降温.md)
 ##### 3.1.2 Load 高
 ##### 3.1.3 网络诊断
 ##### 3.1.4 磁盘诊断
@@ -90,6 +91,7 @@
 	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
 	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何	
 * 2019-08-26
+    * [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/系统稳定性——SoHot？快给CPU降降温.md)@涯海
     * 数据库诊断，@承嗣
     * 服务响应慢诊断，@绍宽
     * Nginx 链路追踪，@竹影 
