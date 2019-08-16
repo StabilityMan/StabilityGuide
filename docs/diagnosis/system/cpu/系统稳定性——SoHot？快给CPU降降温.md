@@ -39,7 +39,7 @@ CPU（Central Processing Unit）是计算机系统的运算和控制核心，是
 
 在 Linux 系统下，可以从 `/proc/cpuinfo` 文件中读取 CPU 信息，如下图所示：
 
-![image](image/CPU信息示例图.png)
+![image](image/CPU信息.png)
 
 * 查看 CPU 个数：
 
