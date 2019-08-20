@@ -1,4 +1,4 @@
-# 系统稳定性——So Hot? 快给 CPU 降降温！
+# 系统稳定性——So Hot？快给 CPU 降降温！
 
 > 作者：夏明（涯海）  
 > 创作日期：2019-08-14  
@@ -26,20 +26,20 @@ CPU（Central Processing Unit）是计算机系统的运算和控制核心，是
 
 超线程（Hyper-Threading）技术可以让一个物理核在单位时间内同时处理两个线程，变成两个逻辑核。但它不会拥有传统单核 2 倍的处理能力，也不可能提供完整的并行处理能力。
 
-<img src="image/CPU结构示意图.png" width = "600"/>
+![image](image/CPU结构示意图.png) 
 
 
 举个例子，假设一个 CPU 芯片就是一个班级；它有 2 个物理核，也就是 2 个同学，老师让他们分别担任班长和体育委员；过了一段时间，校长要求每个班级还要有学习委员和生活委员，理论上还需要 2 位同学，但是这个班级只有 2 个人，最后老师只能让班长和体育委员兼任。
 
 这样一来，对于不了解的人来说，这个班级有班长、体育委员、学习委员和生活委员 4 个职位，应该有 4 个人，每个职位就是一个逻辑核；但是，实际上这个班级只有 2 位同学，也就是只有 2 个物理核，虽然他们可以做 4 份工作，但是不能把他们当做 4 个人。
 
-![image](image/CPU物理:逻辑核案例图.png)
+![image](image/CPU物理核与逻辑核示例图.png) 
 
 ### 如何查询 CPU 信息？
 
 在 Linux 系统下，可以从 `/proc/cpuinfo` 文件中读取 CPU 信息，如下图所示：
 
-![image](image/CPU信息.png)
+![image](image/CPU信息.png) 
 
 * 查看 CPU 个数：
 
@@ -130,7 +130,8 @@ CPU 使用率是单位时间内 CPU 繁忙程度的统计。而平均负载不�
 
 那么 CPU 使用率就是拿起电话筒的时间占比，它只取决于在电话亭里的人的行为，与平均负载没有非常直接的关系。而平均负载是指在电话亭里的人加上排队的总人数，如下图所示:
 
-<img src="image/CPU使用率与平均负载案例图.png" width = "600" height = "1000" />
+![image](image/CPU使用率与平均负载示意图.png) 
+
 
 ## 性能优化实战
 
@@ -147,10 +148,11 @@ CPU 涵盖的问题场景有很多，限于篇幅限制，下面以最常见的�
 3. 通过 `printf "%x\n" 线程号` 命令输出该线程号对应的 16 进制数字；
 4. 通过 `jstack 进程号 | grep 16进制线程号  -A 10` 命令找到 CPU 消耗最多的线程方法堆栈。
 
-![image](image/CPU排查_1.png)
-![image](image/CPU排查_2.png)
-![image](image/CPU排查_3.png)
-![image](image/CPU排查_4.png)
+![image](image/CPU排查_1.png) 
+![image](image/CPU排查_2.png) 
+![image](image/CPU排查_3.png) 
+![image](image/CPU排查_4.png) 
+
 
 上述方法是目前业界最常用的诊断流程，如果是非 Java 应用，可以将 jstack 替换为 perf，推荐阅读 [《Perf -- Linux下的系统性能调优工具》](https://www.ibm.com/developerworks/cn/linux/l-cn-perf1/index.html)。
 
@@ -158,20 +160,17 @@ CPU 涵盖的问题场景有很多，限于篇幅限制，下面以最常见的�
 
 因此，生产系统推荐使用 APM 产品，比如阿里云的 [ARMS](https://help.aliyun.com/document_detail/63796.html)，可以自动记录每类线程的 CPU 耗时和方法栈，开箱即用，自动保留问题现场，如下图所示:
 
-![image](image/线程诊断_1.png)
-![image](image/线程诊断_2.png)
+![image](image/线程诊断_1.png) 
+![image](image/线程诊断_2.png) 
 
 ## 推荐工具&产品
 * [阿里云 ARMS 线程诊断](https://help.aliyun.com/document_detail/63796.html)
 
 
-
-
 ## 参考文章
 * [《Linux性能优化实战》](https://time.geekbang.org/column/intro/140)
-* 《CPU问题定位的知识基础与运维基础》
+* [《CPU问题定位的知识基础与运维基础》](https://www.atatech.org/articles/136481)
 * [《理解Linux系统负荷》](http://www.ruanyifeng.com/blog/2011/07/linux_load_average_explained.html)
-
 
 
 ## 加入我们
@@ -180,16 +179,3 @@ CPU 涵盖的问题场景有很多，限于篇幅限制，下面以最常见的�
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号：23179349
 * 如果阅读本文有所收获，欢迎分享给身边的朋友，期待更多同学的加入！
-
-
-
-
-
-
-
-
-
-
-
-
-
