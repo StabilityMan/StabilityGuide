@@ -43,7 +43,7 @@
 ### 3. 事后诊断
 #### 3.1 系统诊断
 ##### 3.1.1 CPU
-###### [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/系统稳定性——SoHot？快给CPU降降温.md)
+###### [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)
 ##### 3.1.2 Load 高
 ##### 3.1.3 网络诊断
 ##### 3.1.4 磁盘诊断
@@ -77,7 +77,7 @@
 ##### Arthas
 
 #### 3.5 链路追踪 
-##### Nignx 链路追踪
+##### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
 #### 3.6 RootCause 
 ##### 服务响应慢诊断
 
@@ -92,9 +92,12 @@
 	* [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
 	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
 	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何	
-* 2019-08-26
-    * [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/系统稳定性——SoHot？快给CPU降降温.md)@涯海
-    * [虾米SRE实践：监控体系升级之路](docs/processing/monitor/虾米SRE实践_监控体系升级之路.md)@全琮 
+* 2019-08-22
+    * [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)@涯海
+    * [虾米SRE实践：监控体系升级之路](docs/processing/monitor/虾米SRE实践_监控体系升级之路.md)@全琮
+    * [混沌工程介绍与实践](docs/prevention/resilience/混沌工程介绍与实践.md)@穹谷
+    * [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)@竹影
+* 2019-09-05
     * 数据库诊断，@承嗣
     * 服务响应慢诊断，@绍宽
     * Nginx 链路追踪，@竹影 
