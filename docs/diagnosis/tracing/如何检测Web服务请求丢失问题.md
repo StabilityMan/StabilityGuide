@@ -30,17 +30,12 @@
 
 ## 环境准备和问题复现
 
-* 编译安装 Nginx 和 Jaeger Agent，
+* 编译安装 Nginx 和 Jaeger Agent，具体的安装过程可以参考 [阿里云链路追踪文档](https://help.aliyun.com/document_detail/126251.html)。
 
-具体的安装过程可以参考 [阿里云链路追踪文档](https://help.aliyun.com/document_detail/126251.html)。
-
-* 测试环境：
-
-需要重现超时问题，写了一个小程序，开启 200 个线程，每个线程连续向服务发送 500 个请求。 总共提交 100000 个请求。
+* 测试环境：需要重现超时问题，写了一个小程序，开启 200 个线程，每个线程连续向服务发送 500 个请求。 总共提交 100000 个请求。
 
 ## 排查过程
-
-   排查的主题思路， 对比Web 服务端数据 和Nginx 服务端的链路统计数据，如果两种的请求数不一致，那可以确定有请求丢失。 再根据链路上的详情数据来确定丢失请求的原因。
+排查的主题思路， 对比Web 服务端数据 和Nginx 服务端的链路统计数据，如果两种的请求数不一致，那可以确定有请求丢失。 再根据链路上的详情数据来确定丢失请求的原因。
 
 ### 1. Web 服务端数据统计
 发送请求后，发现web服务端一共处理98717个请求，比客户端少了1283个请求。
@@ -84,15 +79,14 @@
 提示： 如果应用部署于阿里云生产环境，则选择内网接入点，否则选择公网接入点。对于 Zipkin，一般情况下请使用 v2 版接入点，v1 版接入点仅限对 Zipkin 十分了解的高阶用户使用。
 
 ## 推荐链接
-* [使用 Jaeger 或 Zipkin 对 Nginx 进行链路追踪] (https://help.aliyun.com/document_detail/126251.html)
-* [通过 Jaeger 追踪 Java 应用链路数据] (https://help.aliyun.com/document_detail/90501.html)
-* [nginx-opentracing 项目] (https://github.com/opentracing-contrib/nginx-opentracing?spm=a2c4g.11186623.2.19.24dd2b5dL3OtQr)
-* [jaeger-client-cpp 项目] (https://github.com/jaegertracing/jaeger-client-cpp?spm=a2c4g.11186623.2.20.24dd2b5dL3OtQr)
-* [zipkin-cpp-opentracing] (https://github.com/rnburn/zipkin-cpp-opentracing?spm=a2c4g.11186623.2.21.24dd2b5dL3OtQr)
+* [使用 Jaeger 或 Zipkin 对 Nginx 进行链路追踪](https://help.aliyun.com/document_detail/126251.html)
+* [通过 Jaeger 追踪 Java 应用链路数据](https://help.aliyun.com/document_detail/90501.html)
+* [nginx-opentracing 项目](https://github.com/opentracing-contrib/nginx-opentracing?spm=a2c4g.11186623.2.19.24dd2b5dL3OtQr)
+* [jaeger-client-cpp 项目](https://github.com/jaegertracing/jaeger-client-cpp?spm=a2c4g.11186623.2.20.24dd2b5dL3OtQr)
+* [zipkin-cpp-opentracing](https://github.com/rnburn/zipkin-cpp-opentracing?spm=a2c4g.11186623.2.21.24dd2b5dL3OtQr)
 
 ## 加入我们
 【稳定大于一切】打造国内稳定性领域知识库，**让无法解决的问题少一点点，让世界的确定性多一点点**。
 
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号：23179349
-
