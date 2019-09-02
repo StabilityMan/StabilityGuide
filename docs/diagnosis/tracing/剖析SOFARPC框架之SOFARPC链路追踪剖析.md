@@ -239,4 +239,4 @@ SOFARPC 的依靠集成 SOFATrace 来实现链路追踪技术，SOFARPC 作为�
 
 - [2] [全链路稳定性背后的数字化支撑：阿里巴巴鹰眼技术解密](http://www.infoq.com/cn/presentations/alibaba-hawk-eye-technology-decryption)
 
-本文转载自：[sofastack.tech 官网专栏]https://www.sofastack.tech/blog/sofa-rpc-link-tracking/)
+本文转载自：[sofastack.tech 官网专栏](https://www.sofastack.tech/blog/sofa-rpc-link-tracking/)
