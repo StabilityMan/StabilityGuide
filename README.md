@@ -77,6 +77,7 @@
 ##### Arthas
 
 #### 3.5 链路追踪 
+###### [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
 
 #### 3.6 RootCause 
@@ -100,6 +101,7 @@
     * [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)@竹影
 * 2019-09-05
     * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
+    * [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)@畅为/碧远/卓与
     * 数据库诊断，@承嗣
     * Nginx 链路追踪，@竹影 
     * Nacos 常见问题及解决方法，@敦谷
