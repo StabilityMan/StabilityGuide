@@ -43,7 +43,7 @@
 ### 3. 事后诊断
 #### 3.1 系统诊断
 ##### 3.1.1 CPU
-###### [系统稳定性——So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)
+###### [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)
 ##### 3.1.2 Load 高
 ##### 3.1.3 网络诊断
 ##### 3.1.4 磁盘诊断
@@ -51,9 +51,9 @@
 
 #### 3.2 JVM 诊断
 ##### 3.2.1 异常诊断
-###### [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
-###### [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)
-###### [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)
+###### [OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)
+###### [StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)
+###### [NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)
 
 ##### 3.2.2 内存诊断
 
@@ -70,26 +70,27 @@
 ##### 3.3.2 缓存诊断
 ##### 3.3.3 消息诊断
 ##### 3.3.4 RPC 诊断
-###### [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
+###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
 ##### 3.3.5 流计算诊断
 
 #### 3.4 在线诊断 
 ##### Arthas
 
 #### 3.5 链路追踪 
-##### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
+###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
+
 #### 3.6 RootCause 
-##### 服务响应慢诊断
+###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
 
 
 
 ## 版本迭代
 * 2019-07-26
-	* [系统稳定性——OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
-	* [系统稳定性——StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
-	* [系统稳定性——Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
+	* [OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
+	* [StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
+	* [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
 * 2019-08-08
-	* [系统稳定性——NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
+	* [NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
 	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
 	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何	
 * 2019-08-22
@@ -98,8 +99,8 @@
     * [混沌工程介绍与实践](docs/prevention/resilience/混沌工程介绍与实践.md)@穹谷
     * [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)@竹影
 * 2019-09-05
+    * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
     * 数据库诊断，@承嗣
-    * 服务响应慢诊断，@绍宽
     * Nginx 链路追踪，@竹影 
     * Nacos 常见问题及解决方法，@敦谷
     * 线程池满诊断，@凌超
@@ -150,3 +151,4 @@
 ## 友情链接
 * [Chaosblade——故障演练开源项目](https://github.com/chaosblade-io/chaosblade)
 * [Arthas——Java 在线诊断开源项目](https://github.com/alibaba/arthas)
+* [SOFATracer——分布式链路追踪开源项目](https://www.sofastack.tech/)
