@@ -74,6 +74,8 @@
 ##### 3.3.4 RPC 诊断
 ###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
 ##### 3.3.5 流计算诊断
+##### 3.3.6 软负载诊断
+###### [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
 
 #### 3.4 在线诊断 
 ##### Arthas
@@ -105,6 +107,7 @@
     * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
     * [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)@畅为/碧远/卓与
     * [阿里云ARMS小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)@慕扉
+    * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
     * 数据库诊断，@承嗣
     * Nginx 链路追踪，@竹影 
     * Nacos 常见问题及解决方法，@敦谷
