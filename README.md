@@ -40,6 +40,7 @@
 #### 2.2 异常巡检
 #### 2.3 流量调度 
 #### 2.4 资损防控
+###### [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)
 
 
 ### 3. 事后诊断
@@ -107,7 +108,10 @@
     * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
     * [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)@畅为/碧远/卓与
     * [阿里云ARMS小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)@慕扉
+* 2019-09-19
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
+    * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
+* 2019-10-10
     * 数据库诊断，@承嗣
     * Nginx 链路追踪，@竹影 
     * Nacos 常见问题及解决方法，@敦谷
