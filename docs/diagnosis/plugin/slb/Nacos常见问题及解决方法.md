@@ -123,7 +123,7 @@ Dubbo 也是类似的道理，用户通常引入的是以下的依赖：
 ### 集群管理页面，Raft Term 显示不一致问题
 在 Nacos 1.0.1 版本中，Nacos 控制台支持了显示当前的集群各个机器的状态信息。这个功能受到比较多用户的关注，其中一个被反馈的问题是列表中每个节点的集群任期不一样。如下图所示（图片信息来自 Issue：[https://github.com/alibaba/nacos/issues/1786](https://github.com/alibaba/nacos/issues/1786)）：
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/15356/1567735682510-b7a73541-a5aa-44d0-9b2f-408443b804bc.png#align=left&display=inline&height=279&name=image.png&originHeight=558&originWidth=1685&size=45557&status=done&width=842.5)
+![image.png](image/NacosRaftTerm示例.png)
 
 对于这个任期不一致的问题，原因主要是因为获取这个信息的逻辑有一些问题，没有从对应的节点上获取集群任期。这个问题会在下一个 Nacos 版本中修复。目前一个手动检查集群任期的办法是在每个节点上执行以下命令：
 
