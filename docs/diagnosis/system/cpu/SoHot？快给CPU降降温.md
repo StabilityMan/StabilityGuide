@@ -2,7 +2,9 @@
 
 > 作者：夏明（涯海）  
 > 创作日期：2019-08-14  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
+> PDF 格式：[SoHot？快给CPU降降温](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/system/cpu/pdf/SoHot？快给CPU降降温.md)
+
 
 CPU（Central Processing Unit）是计算机系统的运算和控制核心，是信息处理、程序运行的最终执行单元，相当于系统的“大脑”。当 CPU 过于繁忙，就像“人脑”并发处理过多的事情，会降低做事的效率，严重时甚至会导致崩溃“宕机”。因此，理解 CPU 的工作原理，合理控制负载，是保障系统稳定持续运行的重要手段。
 

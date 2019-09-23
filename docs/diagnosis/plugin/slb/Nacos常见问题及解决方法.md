@@ -2,7 +2,9 @@
 
 > 作者：朱鹏飞（敦谷）  
 > 创作日期：2019-09-07  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
+> PDF 格式：[Nacos常见问题及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/slb/pdf/Nacos常见问题及解决方法.md)
+
 
 ## 目录
 - [如何依赖最新的Nacos客户端？](#如何依赖最新的nacos客户端)

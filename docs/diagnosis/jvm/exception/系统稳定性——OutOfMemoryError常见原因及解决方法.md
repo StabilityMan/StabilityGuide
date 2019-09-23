@@ -2,7 +2,8 @@
 
 > 作者：夏明（涯海）   
 > 创作日期：2019-07-15  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)   
+> PDF 格式：[系统稳定性——OutOfMemoryError常见原因及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/jvm/exception/pdf/系统稳定性——OutOfMemoryError常见原因及解决方法.pdf)
 
 
 

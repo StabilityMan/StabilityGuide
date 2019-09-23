@@ -2,8 +2,8 @@
 
 > 作者：宋旭（全琮）  
 > 创作日期：2019-08-20  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
-
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
+> PDF 格式：[虾米SRE实践_监控体系升级之路](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/processing/monitor/pdf/虾米SRE实践_监控体系升级之路.pdf)
 
 
 监控一直是服务端掌握应用运行状态的重要手段，经过近几年的发展，阿里虾米服务端目前已经有一百多个 Java 应用，承担核心业务的应用也有将近五十个，对于应用的监控配置也是因人而异。有的应用负责人比较有“追求”，配置的监控比较细，有的应用在经历了多人开发阶段以后，监控就逐渐疏于管理，有些应用的监控项最后修改时间只停留到 2 年以前，早已不适应业务的发展。

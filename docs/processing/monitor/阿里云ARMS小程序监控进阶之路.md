@@ -3,6 +3,7 @@
 > 作者：付萌（慕扉）  
 > 创作日期：2019-05-31  
 > 注：本文为 [FDCon2019第4届中国前端开发者千人峰会《阿里云ARMS小程序监控进阶之路》](https://www.bagevent.com/event/2497313) 分享内容，已经过数据脱敏处理，转载请注明出处。  
+> PDF 格式：[阿里云ARMS小程序监控进阶之路](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/processing/monitor/pdf/阿里云ARMS小程序监控进阶之路.md)  
 
 [ARMS](https://www.aliyun.com/product/arms) 是应用实时监控服务 (Application Real-Time Monitoring Service)的简称，是阿里云的一款 APM 类的监控产品。
 

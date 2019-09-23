@@ -2,8 +2,8 @@
 
 > 作者：徐建伟（竹影）  
 > 创作日期：2019-08-22  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
-
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)   
+> PDF 格式：[如何检测Web服务请求丢失问题](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/如何检测Web服务请求丢失问题.pdf)
 
 
 ## 目录

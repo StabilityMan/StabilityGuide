@@ -2,7 +2,8 @@
 
 > 作者：徐彤（绍宽）  
 > 创作日期：2019-09-02  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
+> PDF 格式：[系统黄金指标之延迟(Latency)指标的故障诊断](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/rootcause/pdf/系统黄金指标之延迟(Latency)指标的故障诊断.md)
 
 
 ## 前言

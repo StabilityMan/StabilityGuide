@@ -2,7 +2,9 @@
 
 > 作者：畅为/碧远/卓与  
 > 创作时间：2018-08-22  
-> 专栏地址：[【剖析 | SOFARPC 框架】](https://www.sofastack.tech/tags/%E5%89%96%E6%9E%90-sofarpc-%E6%A1%86%E6%9E%B6/)
+> 专栏地址：[【剖析 | SOFARPC 框架】](https://www.sofastack.tech/tags/%E5%89%96%E6%9E%90-sofarpc-%E6%A1%86%E6%9E%B6/)  
+> PDF 格式：[SOFARPC链路追踪剖析](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/SOFARPC链路追踪剖析.pdf)
+
 
 SOFAStack(Scalable Open Financial Architecture)是蚂蚁金服自主研发的金融级分布式中间件，包含了构建金融级云原生架构所需的各个组件，是在金融场景里锤炼出来的最佳实践。
 
