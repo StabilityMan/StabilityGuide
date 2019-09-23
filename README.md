@@ -112,7 +112,7 @@
 * 2019-09-19
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
     * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
-    * [链路追踪其实很简单——初识.md](docs/diagnosis/tracing/链路追踪其实很简单——初识.md)@涯海
+    * [链路追踪其实很简单——初识](docs/diagnosis/tracing/链路追踪其实很简单——初识.md)@涯海
 * 2019-10-10
     * 数据库诊断，@承嗣
     * Nginx 链路追踪，@竹影 
