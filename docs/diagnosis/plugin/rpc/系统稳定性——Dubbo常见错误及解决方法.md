@@ -3,7 +3,7 @@
 > 作者：吕仁琦（空冥）  
 > 创作日期：2019-07-18  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[系统稳定性——Dubbo常见错误及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/rpc/pdf/系统稳定性——Dubbo常见错误及解决方法.md)
+> PDF 格式：[系统稳定性——Dubbo常见错误及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/rpc/pdf/系统稳定性——Dubbo常见错误及解决方法.pdf)
 
 
 Dubbo作为高性能 RPC（Remote Procedure Call）框架已经成为 Apache 的顶级项目，意味着在全球被数以千计的公司所采用来其实现其分布式架构的互联集成，尤其是在国内更受欢迎。下面根据我们自身遇到的问题，加上用户提供的一些反馈，来大致梳理下 Dubbo 的常见错误及解决方法。
