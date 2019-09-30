@@ -1,9 +1,9 @@
-# 链路追踪其实很简单——初识
+# 链路追踪（Tracing）其实很简单——初识
 
 > 作者：夏明（涯海）    
 > 创作日期：2019-09-19  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[链路追踪其实很简单——初识](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路追踪其实很简单——初识.pdf)
+> PDF 格式：[链路追踪（Tracing）其实很简单——初识](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路追踪（Tracing）其实很简单——初识.pdf)
 
 
 狭义上的链路追踪（Tracing），是指跟踪请求在分布式系统中的流转路径与状态，协助开发运维人员进行故障诊断、容量预估、性能瓶颈分析与调用链路梳理等工作。技术实现上包含了数据埋点、采集、存储、分析、可视化等环节，形成了一套完整的技术体系。

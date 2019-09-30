@@ -84,7 +84,8 @@
 #### 3.5 链路追踪 
 ###### [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
-###### [链路追踪其实很简单——初识.md](docs/diagnosis/tracing/链路追踪其实很简单——初识.md)
+###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
+###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -112,13 +113,9 @@
 * 2019-09-19
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
     * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
-    * [链路追踪其实很简单——初识](docs/diagnosis/tracing/链路追踪其实很简单——初识.md)@涯海
+    * [链路追踪（Tracing）其实很简单——初识](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)@涯海
 * 2019-10-10
-    * 数据库诊断，@承嗣
-    * Nginx 链路追踪，@竹影 
-    * Nacos 常见问题及解决方法，@敦谷
-    * 线程池满诊断，@凌超
-    * JVM 诊断，@芳玺
+    * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
     * SchedulerX 常见问题及解决方法，@学仁
     * SpringCloud 常见问题及解决方法，@洛夜
     * RocketMQ 常见问题及解决方法，@丁磊
