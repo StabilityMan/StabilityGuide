@@ -89,7 +89,7 @@ Unconditional classes:
 
 这是推荐的包结构中项目的结构:
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/64647/1572239559904-983942e7-4e18-41cd-8c80-dfb8255c53e1.png#alt=undefined)
+![](image/SpringBoot推荐包结构示意图.png)
 
 exclude 包下的类不会被扫描到，card 包下的类会被扫描到。
 
