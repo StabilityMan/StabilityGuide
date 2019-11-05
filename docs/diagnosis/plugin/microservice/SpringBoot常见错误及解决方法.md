@@ -3,7 +3,7 @@
 > 作者：方剑（洛夜）     
 > 创作日期：2019-10-28  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[Spring Boot 常见错误及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/jvm/microservice/pdf/SpringBoot常见错误及解决方法.pdf)
+> PDF 格式：[Spring Boot 常见错误及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/microservice/pdf/SpringBoot常见错误及解决方法.pdf)
 
 Spring Boot 作为 Java 生态中最流行的开发框架，意味着被数以万计的开发者所使用。下面根据我们自身遇到的问题，加上用户提供的一些反馈，来大致梳理下 Spring Boot 的常见错误及解决方法。
 
