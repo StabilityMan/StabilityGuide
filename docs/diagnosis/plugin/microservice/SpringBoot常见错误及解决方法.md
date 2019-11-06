@@ -12,6 +12,7 @@ Spring Boot 作为 Java 生态中最流行的开发框架，意味着被数以�
 - [Jar 包启动不了](#jar-包启动不了)
 - [自动化配置类没有被加载](#自动化配置类没有被加载)
 - [定义的 Component 没有被扫描到](#定义的-component-没有被扫描到)
+- [Actuator Endpoint 访问不了](#actuator-endpoint-访问不了)
 - [推荐项目](#推荐项目)
 - [加入我们](#加入我们)
 
@@ -29,9 +30,7 @@ Nacos 服务注册的 IP 可以通过 `spring.cloud.nacos.discovery.ip` 设置�
 
 配置问题排查:
 
-查看 Stackoverflow 中的各个数据来源，确定配置的属于哪个 PropertySource 或者 Debug 查看 Environment 中的各个 PropertySource 中的配置。
-
-思考: 其实 Spring Boot 可以实现  ConfigurationEndpoint 通过暴露 Endpoint 来查看用户侧到底配置了哪些配置内容。
+进入 http://host:port/actuator/env 这个 endpoint 查看具体的配置项属于哪个 PropertySource
 
 
 ## Jar 包启动不了
@@ -53,10 +52,11 @@ Nacos 服务注册的 IP 可以通过 `spring.cloud.nacos.discovery.ip` 设置�
 
 条件注解是 Spring Boot 的核心特性之一，第三方的 starter 或我们自定义的 starter 内部都会加载一些 AutoConfiguration，有时候会存在一些 AutoConfiguration 没有被加载的情况。导致出现 NoSuchBeanDefinitionException, UnsatisfiedDependencyException 等异常
 
-排查步骤(两种方式):
+排查步骤(三种方式):
 
-1. 把 spring 的日志级别跳到 debug: `logging.level.org.springframework: debug`
+1. 把 spring 的日志级别调到 debug 级别: `logging.level.org.springframework: debug`
 2. 从 ApplicationContext 中获取 `ConditionEvaluationReport`，得到内部的 `ConditionEvaluationReport.ConditionAndOutcomes` 类中的输出信息
+3. 进入 http://host:port/actuator/conditions 这个 endpoint 查看条件注解的 match 情况
 
 这是日志打印的不满足条件的 AutoConfiguratoin:
 
@@ -92,6 +92,16 @@ Unconditional classes:
 ![](image/SpringBoot推荐包结构示意图.png)
 
 exclude 包下的类不会被扫描到，card 包下的类会被扫描到。
+
+## Actuator Endpoint 访问不了
+
+访问 Actuator，出现 404 错误。
+
+解决方案: 
+
+1. Spring Boot 2.x 版本对 Actuator 做了大量的修改，其中访问的路径从 http://host:port/endpointid 变成了 http://host:port/actuator/endpointid 。 确保访问的路径正确
+2. Endpoint 有 Security 要求，在配置里加上 `management.endpoints.web.exposure.include=*` 即可
+
 
 
 ## 推荐项目
