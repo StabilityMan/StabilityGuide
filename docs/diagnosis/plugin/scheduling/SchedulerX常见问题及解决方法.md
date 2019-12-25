@@ -2,7 +2,7 @@
 
 > 作者：黄晓萌（学仁）    
 > 创作日期：2019-11-14  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
 > PDF 格式：[SchedulerX 常见问题及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/scheduling/pdf/SchedulerX常见问题及解决方法.pdf)
 
 ## 目录
@@ -19,14 +19,14 @@
 ## 机器繁忙
 应用管理，连接机器，如果机器是红色的【繁忙】，说明机器繁忙了，可以点击繁忙/健康，看到当前机器的水位。
 
-![image.png](image/SchedulerX_机器状态.png)
+<img src="image/SchedulerX_机器状态.png" width="70%"/>
 
 如果机器繁忙了，默认是无法触发任务的，想要触发任务，有如下解决方案：
 
 1. 根据机器水位进行处理，比如磁盘超过 90%，就清理磁盘。如果 Load 或者 CPU 高，最好排查出是哪里比较耗 CPU，在业务层面解决，如果解决不了最好升级到高配的机器。
 2. 如果只是测试，机器繁忙也想继续触发，可以在应用管理 -> 高级配置下，调整响应的阈值，或者关闭【不触发繁忙机器】的开关，如下图
 
-![image.png](image/SchedulerX_分组配置.png)
+<img src="image/SchedulerX_分组配置.png" width="50%"/>
 
 
 ## 暂无可用的机器（no worker available）
