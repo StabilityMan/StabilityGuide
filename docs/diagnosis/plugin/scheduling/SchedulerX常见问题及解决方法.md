@@ -1,9 +1,9 @@
-# SchedulerX 常见问题及解决办法
+# SchedulerX 常见问题及解决方法
 
 > 作者：黄晓萌（学仁）    
 > 创作日期：2019-11-14  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
-> PDF 格式：[SchedulerX 常见问题及解决办法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/scheduling/pdf/SchedulerX常见问题及解决方法.pdf)
+> PDF 格式：[SchedulerX 常见问题及解决方法](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/scheduling/pdf/SchedulerX常见问题及解决方法.pdf)
 
 ## 目录
 - [机器繁忙](#机器繁忙)
