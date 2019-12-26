@@ -69,6 +69,7 @@
 
 #### 3.3 组件诊断
 ###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
+###### [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)
 ###### [Nacos 常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
 ###### [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)
 ###### [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)
@@ -116,6 +117,7 @@
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
 * 2019-12-26
     * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
+    * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
 * 待定
     * RocketMQ 常见问题及解决方法，@丁磊
     * 慢 SQL 常见原因及解决方法，@长源
