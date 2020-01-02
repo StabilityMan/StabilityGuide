@@ -80,7 +80,7 @@
 #### 3.5 链路追踪 
 ###### [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
-###### [让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息.md)
+###### [让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)
 ###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
 
@@ -119,7 +119,7 @@
 * 2019-12-26
     * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
     * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
-    * [让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息.md)@竹影
+    * [让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
 * 待定
     * RocketMQ 常见问题及解决方法，@丁磊
     * 慢 SQL 常见原因及解决方法，@长源

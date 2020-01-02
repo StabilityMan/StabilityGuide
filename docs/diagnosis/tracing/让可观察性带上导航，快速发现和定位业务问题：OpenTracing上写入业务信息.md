@@ -3,7 +3,7 @@
 > 作者：徐建伟（竹影）    
 > 创作日期：2020-01-02  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[让可观察性带上导航，快速发现和定位业务问题：OpenTracing 上写入业务信息](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/让可观察性带上导航，快速发现和定位业务问题：opentracing上写入业务信息.md)
+> PDF 格式：[让可观察性带上导航，快速发现和定位业务问题：OpenTracing 上写入业务信息](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)
 
 ## 引言
 
