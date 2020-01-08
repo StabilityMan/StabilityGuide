@@ -1,7 +1,7 @@
 
 [![license](https://badgen.net/badge/license/CC-BY-4.0/green)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 [![github](https://badgen.net/badge/github/StabilityGuide/orange)](https://github.com/StabilityMan/StabilityGuide)
-[![chat](https://badgen.net/badge/chat/dingding/blue)](https://github.com/StabilityMan/StabilityGuide/blob/master/DingGroup_2.JPG)
+[![chat](https://badgen.net/badge/chat/dingding/blue)](https://github.com/StabilityMan/StabilityGuide/blob/master/DingGroup_2.png)
 
 
 > 稳定性之于系统，就像健康之于人类，看起来重要不紧急，然而一旦失去，就追悔莫及。
@@ -16,7 +16,7 @@
 ## 加入我们
 * [GitHub 地址](https://github.com/StabilityMan/StabilityGuide)
 * 钉钉群号
-  * 23168197（2群，推荐） 
+  * 30000312（2群，推荐） 
   * 23179349（1群，已满）
 * 如果你在本专栏有所收获，欢迎分享给身边的朋友，期待更多同学的加入！
 
