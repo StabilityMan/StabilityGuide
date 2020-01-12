@@ -93,6 +93,22 @@ private static Tracer tracer = new SkywalkingTracer();
   }
 ```
 
+* Java 代码方式
+
+```java
+ActiveSpan.tag("userId", yourUserId);
+```
+
+* Java 注解方式
+
+```java
+@Tag(key = "userId", value = "arg[0]")
+@Tag(key = "requestId", value = "arg[1]")
+public someMethod(final String userId, final String requestId) {
+    // ...
+}
+```
+
 
 ## 对链路数据进行业务分析
 Tag 信息就好比给图书打上编号分类信息，让我们可以在图书馆海量的图书中找到我们需要图书。 通过 Tag 来进行分类、查找、统计，可以快速找到我们需要的数据。
