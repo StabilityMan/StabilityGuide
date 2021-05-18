@@ -83,7 +83,7 @@
 ###### [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)
 ###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
-###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储?No!按需存储?YES!.md)
+###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -92,7 +92,7 @@
 
 ## 版本迭代
 * 2021-05-18
-    * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储?No!按需存储?YES!.md)@涯海
+    * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)@涯海
 * 2019-12-26
     * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
     * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风

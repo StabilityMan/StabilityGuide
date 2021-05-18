@@ -2,8 +2,8 @@
 
 > 作者：夏明（涯海）    
 > 创作日期：2021-05-18  
-> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)
-> PDF 格式：[链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路追踪（Tracing）其实很简单——全量存储?No!按需存储?YES!.pdf)
+> 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
+> PDF 格式：[链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.pdf)
 
 调用链记录了完整的请求状态及流转信息，是一座巨大的数据宝库。但是，其庞大的数据量带来的成本及性能问题是每个实际应用 Tracing 同学绕不开的难题。如何以最低的成本，按需记录最有价值的链路及其关联数据，是本文探讨的主要话题。 **核心关键词是：边缘计算 + 冷热数据分离。** 如果你正面临全量存储调用链成本过高，而采样后查不到数据或图表不准等问题，请耐心读完本文，相信会给你带来一些启发。
 
