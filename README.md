@@ -83,6 +83,7 @@
 ###### [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)
 ###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
+###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储?No!按需存储?YES!.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -90,51 +91,49 @@
 
 
 ## 版本迭代
-* 2019-07-26
-	* [OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
-	* [StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
-	* [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
-* 2019-08-08
-	* [NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
-	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
-	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何	
-* 2019-08-22
-    * [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)@涯海
-    * [虾米SRE实践：监控体系升级之路](docs/processing/monitor/虾米SRE实践_监控体系升级之路.md)@全琮
-    * [混沌工程介绍与实践](docs/prevention/resilience/混沌工程介绍与实践.md)@穹谷
-    * [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)@竹影
-* 2019-09-05
-    * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
-    * [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)@畅为/碧远/卓与
-    * [阿里云ARMS小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)@慕扉
-* 2019-09-19
-    * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
-    * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
-    * [链路追踪（Tracing）其实很简单——初识](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)@涯海
+* 2021-05-18
+    * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储?No!按需存储?YES!.md)@涯海
+* 2019-12-26
+    * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
+    * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
+    * [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
 * 2019-11-07
     * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
     * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)，@洛夜
     * [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)@神帅
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
-* 2019-12-26
-    * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
-    * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
-    * [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
-* 待定
-    * RocketMQ 常见问题及解决方法，@丁磊
-    * 慢 SQL 常见原因及解决方法，@长源
-    * 缓存诊断，@辰仪
-    * 系统稳定性之于 RocketMQ，@傅冲
+* 2019-09-19
+    * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
+    * [数据一致性检测应用场景与最佳实践](docs/processing/lostprevention/数据一致性检测应用场景与最佳实践.md)@龙多
+    * [链路追踪（Tracing）其实很简单——初识](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)@涯海
+* 2019-09-05
+    * [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)@绍宽
+    * [【剖析|SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)@畅为/碧远/卓与
+    * [阿里云ARMS小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)@慕扉
+* 2019-08-22
+    * [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)@涯海
+    * [虾米SRE实践：监控体系升级之路](docs/processing/monitor/虾米SRE实践_监控体系升级之路.md)@全琮
+    * [混沌工程介绍与实践](docs/prevention/resilience/混沌工程介绍与实践.md)@穹谷
+    * [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)@竹影
+* 2019-08-08
+	* [NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)@涯海
+	* [咱们从头到尾说一次Java垃圾回收](docs/diagnosis/jvm/gc/咱们从头到尾说一次垃圾回收.md)@率鸽
+	* [流控降级最佳实践](docs/prevention/resilience/流控降级最佳实践.md) @宿何	
+* 2019-07-26
+	* [OutOfMemoryError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——OutOfMemoryError常见原因及解决方法.md)@涯海
+	* [StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)@涯海
+	* [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)@空冥
+
 
 
 ## 专栏建设
 * 目标用户：稳定性相关的从业人员、技术决策者、爱好者等。
 * 参与形式：欢迎一切有想法或兴趣的同学一起共建，可以自由选择参与内容编写、渠道宣传、社区维护等活动。
 * 写作原则：通俗易懂，让读者有所收获，尽量避免介绍公网无法获取的内部产品或工具。
-* 内容格式：Markdown 格式，易于传播、分享与共建。
+* 内容格式：Markdown & PDF 格式，易于传播、分享与共建。
 * 内容管理：文档即代码，通过 Git 管理；代码目录与内容框架目录保持一致。会定期 Review 代码/目录结构。
 * 内容编写：建议内容原创或再创作。为了保障文章质量，不建议直接转载。
-* 问题列表：所有人有任何问题和建议都可以通过 Issue 的形式提交，Issue 模板待补充。
+* 问题列表：所有人有任何问题和建议都可以通过 Issue 的形式提交。
 
 
 ## 目录提纲
@@ -160,6 +159,7 @@
 	* 前后效果对比。
 	* 简要的问题复盘总结，文档收尾。
 * 推荐阅读/产品链接/公众号/交流群等。
+
 
 ## 友情链接
 * [Chaosblade——故障演练开源项目](https://github.com/chaosblade-io/chaosblade)
