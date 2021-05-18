@@ -97,7 +97,7 @@
 
 
 ## 推荐工具&产品
-* [ARMS —— 阿里云 APM 产品，支持 NoSuchMethodError 异常关键字告警](https://help.aliyun.com/document_detail/42966.html)
+* [ARMS —— 阿里云 APM 产品，支持 NoSuchMethodError 异常关键字告警](https://help.aliyun.com/document_detail/42781.html)
 * [Arthas —— Java 在线诊断工具](https://github.com/alibaba/arthas)
 
 

@@ -188,7 +188,7 @@ Direct ByteBuffer 的默认大小为 64 MB，一旦使用超出限制，就会�
 
 ## 推荐工具&产品
 * [Eclipse Memory Analyzer —— JVM 内存分析工具](https://www.eclipse.org/mat/)
-* [ARMS —— 阿里云 APM 产品，支持 OOM 异常关键字告警](https://help.aliyun.com/document_detail/42966.html)
+* [ARMS —— 阿里云 APM 产品，支持 OOM 异常关键字告警](https://help.aliyun.com/document_detail/42781.html)
 * [Arthas —— Java 在线诊断工具](https://github.com/alibaba/arthas)
 
 
