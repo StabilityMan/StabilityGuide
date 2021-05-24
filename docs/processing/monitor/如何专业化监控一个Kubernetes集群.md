@@ -48,10 +48,10 @@ Prometheus可以周期性采集组件暴露在HTTP(s)端点的/metrics下面的�
 
 - **容器基础资源指标**。采集源为kubelet内置的cAdvisor，提供容器内存、CPU、网络、文件系统等相关的指标，指标样例包括：容器当前内存使用字节数 `container_memory_usage_bytes`， 容器网络接收字节数`container_network_receive_bytes_total`， 容器网络发送字节数`container_network_transmit_bytes_total` 等等。
 
-- **Kubernetes节点资源指标。**采集源为`node_exporter`，提供节点系统和硬件相关的指标，指标样例包括：节点总内存`node_memory_MemTotal_bytes`，节点文件系统空间`node_filesystem_size_bytes`，节点网络接口ID `node_network_iface_id`，等等。基于该类指标，可以统计节点的CPU/内存/磁盘使用率等节点级别指标。
+- **Kubernetes节点资源指标。** 采集源为`node_exporter`，提供节点系统和硬件相关的指标，指标样例包括：节点总内存`node_memory_MemTotal_bytes`，节点文件系统空间`node_filesystem_size_bytes`，节点网络接口ID `node_network_iface_id`，等等。基于该类指标，可以统计节点的CPU/内存/磁盘使用率等节点级别指标。
 
 
-- **Kubernetes资源指标。**采集源为kube-state-metrics，基于Kubernetes API对象生成指标，提供K8s集群资源指标，例如Node、ConfigMap、Deployment、DaemonSet等类型。以Node类型指标为例，包括节点Ready状态指标`kube_node_status_condition`、节点信息`kube_node_info`等等。
+- **Kubernetes资源指标。** 采集源为kube-state-metrics，基于Kubernetes API对象生成指标，提供K8s集群资源指标，例如Node、ConfigMap、Deployment、DaemonSet等类型。以Node类型指标为例，包括节点Ready状态指标`kube_node_status_condition`、节点信息`kube_node_info`等等。
 
 
 - **Kubernetes组件指标**。
@@ -160,11 +160,13 @@ NPD支持多种异常检查，例如：
 ![image](image/K8S监控_ACK监测_1.png)
 
 
-**阿里云Prometheus监控，**是ARMS产品子产品。应用实时监控服务 (Application Real-Time Monitoring Service, 简称ARMS) 是一款应用性能管理产品，包含前端监控，应用监控和Prometheus监控三大子产品。
+**阿里云Prometheus监控，** 是ARMS产品子产品。应用实时监控服务 (Application Real-Time Monitoring Service, 简称ARMS) 是一款应用性能管理产品，包含前端监控，应用监控和Prometheus监控三大子产品。
+
 在2021 年的 Gartner的APM魔力象限评测中，阿里云应用实时监控服务（ARMS）作为阿里云 APM 的核心产品，联合云监控以及日志服务共同参与。Gartner 评价阿里云 APM：
-中国影响力最强：阿里云是中国最大的云服务提供商，阿里云用户可以使用云上监控工具来满足其可观测性需求。
-开源集成：阿里云非常重视将开源标准和产品（例如 Prometheus）集成到其平台中。
-成本优势：与在阿里云上使用第三方 APM 产品相比，阿里云 APM 产品具有更高的成本效益。
+
+- 中国影响力最强：阿里云是中国最大的云服务提供商，阿里云用户可以使用云上监控工具来满足其可观测性需求。
+- 开源集成：阿里云非常重视将开源标准和产品（例如 Prometheus）集成到其平台中。
+- 成本优势：与在阿里云上使用第三方 APM 产品相比，阿里云 APM 产品具有更高的成本效益。
 ​
 下图概要对比了开源Prometheus和阿里云Prometheus的模块划分和数据链路。
 
@@ -280,7 +282,8 @@ I0215 23:32:19.226568       1 httplog.go:102] requestID=a1724f0b-39f1-40da-b36c-
 
 通过可观测功能发现严重问题后，需要立即处置止损。下面分析一下应急处理的方法。
 
-1. 查看RT（读和写操作）和inflight-requests，如果较高，查看客户端请求来源。如果DropRequest，说明已经触发Apiserver限流，情况严重。查看客户端来源，确定请求多的客户端确认是否异常。
+1. 查看RT（读和写操作）和inflight-requests，如果较高，查看客户端请求来源。
+1. 如果DropRequest，说明已经触发Apiserver限流，情况严重。查看客户端来源，确定请求多的客户端确认是否异常。
 
 对于大规模集群，一种常见异常是SLB带宽打满，导致大量用户侧worker节点与apiserver无法正常update status，进而NodeNotReady。处理办法包括升配SLB，暂时删除大量LIST请求的Pod等。
 
