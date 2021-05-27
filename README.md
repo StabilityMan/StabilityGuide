@@ -40,6 +40,7 @@
 ###### [阿里云 ARMS 小程序监控进阶之路](docs/processing/monitor/阿里云ARMS小程序监控进阶之路.md)
 ###### [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)
 ###### [如何专业化监控一个Kubernetes集群](docs/processing/monitor/如何专业化监控一个Kubernetes集群.md)
+###### [2021 Gartner APM 魔力象限解读](docs/processing/monitor/2021_Gartner_APM魔力象限解读.md)
 
 #### 2.2 异常巡检
 #### 2.3 流量调度 
@@ -92,9 +93,10 @@
 
 
 ## 版本迭代
-* 2021-05-24
+* 2021-05-27
     * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)@涯海
     * [如何专业化监控一个Kubernetes集群](docs/processing/monitor/如何专业化监控一个Kubernetes集群.md)@佳旭
+    * [2021 Gartner APM 魔力象限解读](docs/processing/monitor/2021_Gartner_APM魔力象限解读.md)@西杰
 * 2019-12-26
     * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
     * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
