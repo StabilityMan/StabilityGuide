@@ -86,6 +86,7 @@
 ###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
 ###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)
+###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -93,6 +94,8 @@
 
 
 ## 版本迭代
+* 2021-08-27
+    * [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)@涯海
 * 2021-05-27
     * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)@涯海
     * [如何专业化监控一个Kubernetes集群](docs/processing/monitor/如何专业化监控一个Kubernetes集群.md)@佳旭
