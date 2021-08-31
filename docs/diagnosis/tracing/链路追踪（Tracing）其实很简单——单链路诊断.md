@@ -5,7 +5,7 @@
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
 > PDF 格式：[链路追踪（Tracing）其实很简单——单链路诊断](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路追踪（Tracing）其实很简单——单链路诊断.pdf)
 
-前文[《链路追踪——初识》](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/链路追踪其实很简单——初识.md)介绍了链路追踪的基本含义，即跟踪请求在分布式系统中的流转路径与状态。而单链路诊断，顾名思义，就是基于单次请求关联的调用轨迹数据，定位问题原因，属于链路追踪的核心功能之一。比如一次用户下单请求超时，可以通过查看该次请求经过了哪些节点（如应用或 IP），调用了哪些服务，调用的时间顺序与先后关系等信息，判断导致该次请求下单超时的原因或故障范围。
+前文[《链路追踪——初识》](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——初识.md)介绍了链路追踪的基本含义，即跟踪请求在分布式系统中的流转路径与状态。而单链路诊断，顾名思义，就是基于单次请求关联的调用轨迹数据，定位问题原因，属于链路追踪的核心功能之一。比如一次用户下单请求超时，可以通过查看该次请求经过了哪些节点（如应用或 IP），调用了哪些服务，调用的时间顺序与先后关系等信息，判断导致该次请求下单超时的原因或故障范围。
 
 那么，单链路诊断的具体含义是什么？它该如何使用？能够解决哪些问题？带着这些疑问，我们即将开启接下来的探秘之旅。
 
