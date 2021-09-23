@@ -87,6 +87,7 @@
 ###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)
 ###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)
 ###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)
+###### [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端、多语言、跨云部署，全链路追踪到底有多难？.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -94,6 +95,8 @@
 
 
 ## 版本迭代
+* 2021-09-23
+    * [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端、多语言、跨云部署，全链路追踪到底有多难？.md)@涯海
 * 2021-08-27
     * [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)@涯海
 * 2021-05-27
@@ -106,7 +109,7 @@
     * [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
 * 2019-11-07
     * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
-    * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)，@洛夜
+    * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)@洛夜
     * [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)@神帅
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
 * 2019-09-19
