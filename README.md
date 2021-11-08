@@ -88,6 +88,7 @@
 ###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——全量存储%3FNo!按需存储%3FYES!.md)
 ###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)
 ###### [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端、多语言、跨云部署，全链路追踪到底有多难？.md)
+###### [链路分析 K.O “五大经典问题”](docs/diagnosis/tracing/链路分析K.O“五大经典问题”.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟(Latency)指标的故障诊断.md)
@@ -95,6 +96,8 @@
 
 
 ## 版本迭代
+* 2021-11-08
+    * [链路分析 K.O “五大经典问题”](docs/diagnosis/tracing/链路分析K.O“五大经典问题”.md)@涯海
 * 2021-09-23
     * [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端、多语言、跨云部署，全链路追踪到底有多难？.md)@涯海
 * 2021-08-27
