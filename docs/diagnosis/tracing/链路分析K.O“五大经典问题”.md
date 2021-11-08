@@ -4,7 +4,7 @@
 > 作者：夏明（涯海）    
 > 创作日期：2021-11-05  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[链路分析K.O“五大经典问题”.md](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路分析K.O“五大经典问题”.pdf)  
+> PDF 格式：[链路分析K.O“五大经典问题”](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/tracing/pdf/链路分析K.O“五大经典问题”.pdf)  
 
 ## 链路追踪的“第三种玩法”
 
