@@ -22,8 +22,9 @@
 
 ## 框架目录
 ### 0. 故障案例
+###### [【必读】故障案例征集 & Demo 模板.md](docs/case/【必读】故障案例征集&Demo模板.md)
 ###### [【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘](docs/case/【案例】Dubbo稳定性：Nacos注册中心可用性问题复盘.md)
-###### [【案例】记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/【案例】记一次线上内存报警排查过程.md)
+###### [【案例】记一次线上内存报警排查过程](docs/case/【案例】记一次线上内存报警排查过程.md)
 
 
 ### 1. 事前防范
@@ -100,6 +101,8 @@
 
 
 ## 版本迭代
+* 2021-11-17
+    * [【必读】故障案例征集 & Demo 模板.md](docs/case/【必读】故障案例征集&Demo模板.md)@涯海
 * 2021-11-08
     * [链路分析 K.O “五大经典问题”](docs/diagnosis/tracing/链路分析K.O“五大经典问题”.md)@涯海
 * 2021-09-23
@@ -117,7 +120,7 @@
 * 2019-11-07
     * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
     * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)@洛夜
-    * [【案例】记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/【案例】记一次线上内存报警排查过程.md)@神帅
+    * [【案例】记一次线上内存报警排查过程](docs/case/【案例】记一次线上内存报警排查过程.md)@神帅
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
 * 2019-09-19
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷
