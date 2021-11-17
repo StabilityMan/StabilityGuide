@@ -21,6 +21,11 @@
 * 如果你在本专栏有所收获，欢迎分享给身边的朋友，期待更多同学的加入！
 
 ## 框架目录
+### 0. 故障案例
+###### [【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘](docs/case/【案例】Dubbo稳定性：Nacos注册中心可用性问题复盘.md)
+###### [【案例】记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/【案例】记一次线上内存报警排查过程.md)
+
+
 ### 1. 事前防范
 #### 1.1 代码规约
 #### 1.2 变更管控
@@ -51,7 +56,7 @@
 ### 3. 事后诊断
 #### 3.1 系统诊断
 ###### [So Hot？快给 CPU 降降温](docs/diagnosis/system/cpu/SoHot？快给CPU降降温.md)
-###### [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)
+
 
 #### 3.2 JVM 诊断
 ##### 3.2.1 异常诊断
@@ -71,7 +76,6 @@
 
 #### 3.3 组件诊断
 ###### [Dubbo 常见错误及解决方法](docs/diagnosis/plugin/rpc/系统稳定性——Dubbo常见错误及解决方法.md)
-###### [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)
 ###### [Nacos 常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)
 ###### [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)
 ###### [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)
@@ -108,12 +112,12 @@
     * [2021 Gartner APM 魔力象限解读](docs/processing/monitor/2021_Gartner_APM魔力象限解读.md)@西杰
 * 2019-12-26
     * [SchedulerX 常见问题及解决方法](docs/diagnosis/plugin/scheduling/SchedulerX常见问题及解决方法.md)@学仁
-    * [Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](docs/diagnosis/plugin/rpc/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.md)@岛风
+    * [【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘](docs/case/【案例】Dubbo稳定性：Nacos注册中心可用性问题复盘.md)@岛风
     * [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息.md)@竹影
 * 2019-11-07
     * [链路追踪（Tracing）其实很简单——单链路诊断](docs/diagnosis/tracing/链路追踪（Tracing）其实很简单——单链路诊断.md)@涯海
     * [Spring Boot 常见错误及解决方法](docs/diagnosis/plugin/microservice/SpringBoot常见错误及解决方法.md)@洛夜
-    * [记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/记一次线上内存报警排查过程.md)@神帅
+    * [【案例】记一次线上内存报警排查过程](docs/diagnosis/system/memory/case/【案例】记一次线上内存报警排查过程.md)@神帅
     * [饿了么监控系统 EMonitor 与 CAT 的对比](docs/processing/monitor/饿了么监控系统EMonitor与CAT的对比.md)@李刚
 * 2019-09-19
     * [Nacos常见问题及解决方法](docs/diagnosis/plugin/slb/Nacos常见问题及解决方法.md)@敦谷

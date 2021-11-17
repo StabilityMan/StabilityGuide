@@ -1,9 +1,9 @@
-# Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘
+# 【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘
 
 > 作者：徐靖峰（岛风）    
 > 创作日期：2019-12-02  
 > 专栏地址：[【稳定大于一切】](https://github.com/StabilityMan/StabilityGuide)  
-> PDF 格式：[Dubbo 稳定性案例：Nacos 注册中心可用性问题复盘](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/rpc/pdf/Dubbo稳定性案例：Nacos注册中心可用性问题复盘.pdf)
+> PDF 格式：[【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘](https://github.com/StabilityMan/StabilityGuide/blob/master/docs/diagnosis/plugin/rpc/pdf/【案例】Dubbo稳定性：Nacos注册中心可用性问题复盘.pdf)
 
 
 ## 问题描述
