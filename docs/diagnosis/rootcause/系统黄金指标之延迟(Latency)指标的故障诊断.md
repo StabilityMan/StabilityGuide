@@ -11,7 +11,7 @@
 被运维或者稳定性负责的同学奉为"圣经"的Google的《Google SRE Books》一书中提出了系统监控的四个黄金指标
 
 * Latency：延时
-* Utilization：使用率
+* Traffic：流量
 * Saturation：饱和度
 * Errors：错误数或错误率
 
