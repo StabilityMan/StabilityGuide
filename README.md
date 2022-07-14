@@ -91,12 +91,16 @@
 ###### [【剖析 SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
 ###### [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航_快速发现和定位业务问题_OpenTracing上写入业务信息.md)
-###### [链路追踪（Tracing）其实很简单——初识.md](docs/diagnosis/tracing/链路追踪其实很简单——初识.md)
-###### [链路追踪（Tracing）其实很简单——单链路诊断.md](docs/diagnosis/tracing/链路追踪其实很简单——单链路诊断.md)
-###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪其实很简单——全量存储No按需存储YES.md)
 ###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)
 ###### [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端_多语言_跨云部署_全链路追踪到底有多难.md)
 ###### [链路分析 K.O “五大经典问题”](docs/diagnosis/tracing/链路分析K.O“五大经典问题”.md)
+###### [链路追踪（Tracing）其实很简单——分布式链路追踪的起源](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的起源.md)
+###### [链路追踪（Tracing）其实很简单——分布式链路追踪的诞生](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的诞生.md)
+###### [链路追踪（Tracing）其实很简单——分布式链路追踪的应用与兴起](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的应用与兴起.md)
+###### [链路追踪（Tracing）其实很简单——分布式链路追踪的挑战与限制](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的挑战与限制.md)
+###### [链路追踪（Tracing）其实很简单——请求轨迹回溯](docs/diagnosis/tracing/链路追踪其实很简单——请求轨迹回溯.md)
+###### [链路追踪（Tracing）其实很简单——多维链路筛选](docs/diagnosis/tracing/链路追踪其实很简单——多维链路筛选.md)
+###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪其实很简单——全量存储No按需存储YES.md)
 
 #### 3.6 RootCause 
 ###### [系统黄金指标之延迟(Latency)指标的故障诊断](docs/diagnosis/rootcause/系统黄金指标之延迟指标的故障诊断.md)
@@ -104,6 +108,13 @@
 
 
 ## 版本迭代
+* 2022-07-14
+    * [链路追踪（Tracing）其实很简单——分布式链路追踪的起源](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的起源.md)
+    * [链路追踪（Tracing）其实很简单——分布式链路追踪的诞生](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的诞生.md)
+    * [链路追踪（Tracing）其实很简单——分布式链路追踪的应用与兴起](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的应用与兴起.md)
+    * [链路追踪（Tracing）其实很简单——分布式链路追踪的挑战与限制](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的挑战与限制.md)
+    * [链路追踪（Tracing）其实很简单——请求轨迹回溯](docs/diagnosis/tracing/链路追踪其实很简单——请求轨迹回溯.md)
+    * [链路追踪（Tracing）其实很简单——多维链路筛选](docs/diagnosis/tracing/链路追踪其实很简单——多维链路筛选.md)
 * 2022-04-15
     * [OPLG：新一代云原生可观测最佳实践](docs/processing/monitor/OPLG_新一代云原生可观测最佳实践.md)@涯海
 * 2021-11-17
