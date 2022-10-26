@@ -103,6 +103,7 @@
 ###### [链路追踪（Tracing）其实很简单——链路实时分析、监控与告警](docs/diagnosis/tracing/链路追踪其实很简单——链路实时分析_监控与告警.md)
 ###### [链路追踪（Tracing）其实很简单——链路拓扑](docs/diagnosis/tracing/链路追踪其实很简单——链路拓扑.md)
 ###### [链路追踪（Tracing）其实很简单——链路功能进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路功能进阶指南.md)
+###### [链路追踪（Tracing）其实很简单——链路成本进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路成本进阶指南.md)
 ###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪其实很简单——全量存储No按需存储YES.md)
 
 #### 3.6 RootCause 
@@ -111,7 +112,8 @@
 
 
 ## 版本迭代
-* 2022-10-24
+* 2022-10-26
+    * [链路追踪（Tracing）其实很简单——链路成本进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路成本进阶指南.md)@涯海
     * [链路追踪（Tracing）其实很简单——链路功能进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路功能进阶指南.md)@涯海
     * [链路追踪（Tracing）其实很简单——链路拓扑](docs/diagnosis/tracing/链路追踪其实很简单——链路拓扑.md)@涯海
     * [链路追踪（Tracing）其实很简单——链路实时分析、监控与告警](docs/diagnosis/tracing/链路追踪其实很简单——链路实时分析_监控与告警.md)@涯海
