@@ -27,6 +27,7 @@
 ###### [【必读】故障案例征集 & Demo 模板.md](docs/case/【必读】故障案例征集&Demo模板.md)
 ###### [【案例】Dubbo 稳定性：Nacos 注册中心可用性问题复盘](docs/case/【案例】Dubbo稳定性_Nacos注册中心可用性问题复盘.md)
 ###### [【案例】记一次线上内存报警排查过程](docs/case/【案例】记一次线上内存报警排查过程.md)
+###### [【案例】发现CMS_GC有点傻--应用A_FullGC问题排查](docs/case/【案例】发现CMS_GC有点傻--应用A_FullGC问题排查.md)
 
 
 ### 1. 事前防范
@@ -112,6 +113,8 @@
 
 
 ## 版本迭代
+* 2022-11-03
+    * [【案例】发现CMS_GC有点傻--应用A_FullGC问题排查](docs/case/【案例】发现CMS_GC有点傻--应用A_FullGC问题排查.md)@佐井
 * 2022-10-26
     * [链路追踪（Tracing）其实很简单——链路成本进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路成本进阶指南.md)@涯海
     * [链路追踪（Tracing）其实很简单——链路功能进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路功能进阶指南.md)@涯海
