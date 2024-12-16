@@ -92,7 +92,7 @@
 ###### [【剖析 SOFARPC 框架】之 SOFARPC 链路追踪剖析](docs/diagnosis/tracing/剖析SOFARPC框架之SOFARPC链路追踪剖析.md)
 ###### [如何检测Web服务请求丢失问题](docs/diagnosis/tracing/如何检测Web服务请求丢失问题.md)
 ###### [让可观察性带上导航，快速发现和定位业务问题：OpenTracing上写入业务信息](docs/diagnosis/tracing/让可观察性带上导航_快速发现和定位业务问题_OpenTracing上写入业务信息.md)
-###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)
+###### [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace_如何选择.md)
 ###### [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端_多语言_跨云部署_全链路追踪到底有多难.md)
 ###### [链路分析 K.O “五大经典问题”](docs/diagnosis/tracing/链路分析K.O“五大经典问题”.md)
 ###### [链路追踪（Tracing）其实很简单——分布式链路追踪的起源](docs/diagnosis/tracing/链路追踪其实很简单——分布式链路追踪的起源.md)
@@ -105,6 +105,7 @@
 ###### [链路追踪（Tracing）其实很简单——链路拓扑](docs/diagnosis/tracing/链路追踪其实很简单——链路拓扑.md)
 ###### [链路追踪（Tracing）其实很简单——链路功能进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路功能进阶指南.md)
 ###### [链路追踪（Tracing）其实很简单——链路成本进阶指南](docs/diagnosis/tracing/链路追踪其实很简单——链路成本进阶指南.md)
+###### [链路追踪（Tracing）其实很简单——链路诊断1分钟定位错慢根因](docs/diagnosis/tracing/链路追踪其实很简单——链路诊断1分钟定位错慢根因.md)
 ###### [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪其实很简单——全量存储No按需存储YES.md)
 
 #### 3.6 RootCause 
@@ -113,6 +114,8 @@
 
 
 ## 版本迭代
+* 2024-12-16
+    * [链路追踪（Tracing）其实很简单——链路诊断1分钟定位错慢根因](docs/diagnosis/tracing/链路追踪其实很简单——链路诊断1分钟定位错慢根因.md)@涯海
 * 2022-11-03
     * [【案例】发现CMS_GC有点傻--应用A_FullGC问题排查](docs/case/【案例】发现CMS_GC有点傻--应用A_FullGC问题排查.md)@佐井
 * 2022-10-26
@@ -136,7 +139,7 @@
 * 2021-09-23
     * [前后端、多语言、跨云部署，全链路追踪到底有多难？](docs/diagnosis/tracing/前后端_多语言_跨云部署_全链路追踪到底有多难.md)@涯海
 * 2021-08-27
-    * [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace，如何选择？.md)@涯海
+    * [开源自建/托管与商业化自研Trace，如何选择？](docs/diagnosis/tracing/开源自建_托管与商业化自研Trace_如何选择.md)@涯海
 * 2021-05-27
     * [链路追踪（Tracing）其实很简单——全量存储? No! 按需存储? YES!.md](docs/diagnosis/tracing/链路追踪其实很简单——全量存储No按需存储YES.md)@涯海
     * [如何专业化监控一个Kubernetes集群](docs/processing/monitor/如何专业化监控一个Kubernetes集群.md)@佳旭
