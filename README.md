@@ -69,7 +69,8 @@
 ###### [StackOverFlowError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——StackOverFlowError常见原因及解决方法.md)
 ###### [NoSuchMethodError 常见原因及解决方法](docs/diagnosis/jvm/exception/系统稳定性——NoSuchMethodError常见原因及解决方法.md)
 
-##### 3.2.2 内存诊断
+##### 3.2.2 性能优化
+###### [Java应用CPU&JVM内存性能调优](docs/diagnosis/jvm/tuning/Java应用CPU&JVM内存性能调优.md)
 
 ##### 3.2.3 线程诊断
 ###### 线程池满
@@ -114,6 +115,8 @@
 
 
 ## 版本迭代
+* 2024-12-20
+    * [Java应用CPU&JVM内存性能调优](docs/diagnosis/jvm/tuning/Java应用CPU&JVM内存性能调优.md)@涯海
 * 2024-12-16
     * [链路追踪（Tracing）其实很简单——链路诊断1分钟定位错慢根因](docs/diagnosis/tracing/链路追踪其实很简单——链路诊断1分钟定位错慢根因.md)@涯海
 * 2022-11-03
